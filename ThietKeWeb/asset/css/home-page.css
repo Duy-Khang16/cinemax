@@ -1,0 +1,196 @@
+.section {
+    width: 100%;
+    height: 100vh;
+    background-color: #141414;
+}
+.banner {
+    padding-top: 10px;
+    margin-top: 80px;
+    height: 80%;
+    justify-content: center;
+    display: flex;
+}
+.adc {
+    width: 51.3%;
+    height: 80.4%;
+}
+.main-adc {
+    height: 100%;
+    position: relative;
+    margin-bottom: 5px;
+}
+.slide-img {
+    overflow: hidden;
+}
+.img-feature {
+    position: absolute;
+    border: 1px solid #adadad;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.list-img {
+    
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.list-img div {
+    flex: 1;
+    padding: 3px;
+}
+.list-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.control {
+    position: absolute;
+    top: 50%;
+    color: white;
+    transform: translateY(-50%);
+}
+.prev {
+    left: -30px;
+}
+.next {
+    right: -30px;
+}
+.active {
+    background: #5f5f5f ;
+}
+.content {
+    height: 100%;
+    width: 100%;
+    background-color: #141414;
+    bottom: 0;
+}
+.content > div > div > a {
+    color: white;
+    font-size: 1.2rem;
+}
+.content-items {
+    height: 40%;
+}
+.movie {
+    height: 100%;
+    padding-top: 10px;
+    padding-right: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.movie div {
+    width: 12.9%;
+    height: 90.3%;
+    border: 1px solid #adadad;
+}
+.movie img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+/* .movie-items {
+    width: 12.9%;
+    height: 90.3%;
+    border: 1px solid #adadad;
+} */
+.popular {
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding-left: 32px;
+    border-top: 2px solid #5f5f5f;
+}
+.now-showing {
+    padding-top: 10px;
+    padding-left: 32px ;
+    margin-top: 7px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    border-top: 2px solid #5f5f5f;
+}
+.comming-soon {
+    padding-left: 32px;
+    margin-top: 7px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    border-top: 2px solid #5f5f5f;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.information {
+    margin-top: 7px;
+    color: #5f5f5f;
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #5f5f5f;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.icon {
+    width: 10%;
+    justify-content: space-between;
+    display: flex;
+}
+.icon > a {
+    color: white;
+}
+.title {
+    width: 50%;
+    height: 30%;
+    justify-content: space-between;
+    display: flex;
+}
+.title > div > a{
+    color: #5f5f5f;
+    font-size: 0.8rem;
+}
+.title > div > a:hover {
+    text-decoration: underline;
+}
+
+/*animation nhưng fail 
+/* 
+@keyframes slideInLeft {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes slideInRight {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes slideOutLeft {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+@keyframes slideOutRight {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+} */
+
+
